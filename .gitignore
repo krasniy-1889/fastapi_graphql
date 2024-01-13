@@ -1,0 +1,12 @@
+*.log
+*.pot
+*.pyc
+.idea/
+__pycache__/
+.env
+db.sqlite3
+.venv/
+# macOS
+.DS_Store
+# IDE
+.vscode/

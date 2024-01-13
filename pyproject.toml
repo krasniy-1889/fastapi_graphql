@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastapi-graphql"
+version = "0.1.0"
+description = ""
+authors = ["krasniy-1889 <neytirri@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.109.0"
+uvicorn = "^0.25.0"
+strawberry-graphql = {extras = ["fastapi"], version = "^0.217.1"}
+loguru = "^0.7.2"
+sqlalchemy = "^2.0.25"
+alembic = "^1.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
